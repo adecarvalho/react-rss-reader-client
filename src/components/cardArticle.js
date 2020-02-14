@@ -20,7 +20,12 @@ const CardArticle = ({ article }) => {
           <p className="">{article.description}</p>
         </div>
         <div className="card-action">
-          <a href={article.link} target="_blank" rel="noopener noreferrer">
+          <a
+            className="blue-text accent-1"
+            href={article.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Ouvrir
           </a>
         </div>

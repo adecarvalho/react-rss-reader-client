@@ -15,7 +15,9 @@ const AboutPage = () => {
               </p>
             </div>
             <div className="card-action">
-              <a href="/">Les flux</a>
+              <a href="/" className="blue-text accent-1">
+                Les flux
+              </a>
             </div>
           </div>
         </div>
