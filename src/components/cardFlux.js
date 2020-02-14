@@ -13,7 +13,7 @@ const CardFlux = ({ flux }) => {
         <div className="card-action">
           <Link
             to={"/article/" + flux.id}
-            className="btn blue-grey lighten-1 waves-effect waves-light"
+            className="btn blue accent-1 waves-effect waves-light"
           >
             Ouvrir
           </Link>

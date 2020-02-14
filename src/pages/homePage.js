@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
-
+import lemondelogo from "../images/LeMondeLogo.png"
 import { REQUEST_GET_FLUX } from "../store/types/index"
 
 import ListFlux from "../components/listFlux"
@@ -25,7 +25,7 @@ const HomePage = props => {
   }
   //
   async function gettingFlux() {
-    if (fluxReducer.visa == false) {
+    if (fluxReducer.visa === false) {
       dispatch({ type: REQUEST_GET_FLUX, payload: null })
     }
   }
@@ -40,7 +40,15 @@ const HomePage = props => {
       <div className="row">{afficheBar(fluxReducer.loading)}</div>
       {/** */}
       <div className="row">
-        <h2 className="center">Les Flux Rss</h2>
+        {/* <h2 className="center">Les Flux Rss du journal LeMonde</h2> */}
+        <div className="logo-container">
+          <img
+            className="responsive-img"
+            width="400"
+            src={lemondelogo}
+            alt="logo_lemonde"
+          />
+        </div>
       </div>
       {/** */}
       <div className="row">

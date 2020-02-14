@@ -5,6 +5,7 @@ import { store } from "../src/store/mainStrore"
 
 import NavigationBar from "./components/navigationBar"
 import Routes from "./routes/index"
+import Footer from "./components/footer"
 
 //
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <section className="main">
           <Routes></Routes>
         </section>
+        <Footer></Footer>
       </>
     </Provider>
   )

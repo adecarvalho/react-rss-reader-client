@@ -16,6 +16,11 @@ body {
   width: 100vw;
   height: auto;
 }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .errors-content {
   font-size: 2rem;
@@ -24,11 +29,21 @@ body {
 .navigation-container {
   display: flex;
   flex-direction: row;
-  background-color: "#ba68c8";
+  background-color: "#fff8e1";
   width: 100vw;
   height: 64px;
   justify-content: flex-start;
   align-items: center;
+}
+
+.about-text {
+  font-size: 2rem;
+}
+
+.navigation-title {
+  font-size: 2rem;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .navigation-item {
