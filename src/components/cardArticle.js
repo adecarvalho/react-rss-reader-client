@@ -12,6 +12,7 @@ const CardArticle = ({ article }) => {
           </h5>
           <img
             src={article.imageUrl.url}
+            alt="img"
             className=" responsive-img circle imageUrl"
           />
         </div>
@@ -19,7 +20,7 @@ const CardArticle = ({ article }) => {
           <p className="">{article.description}</p>
         </div>
         <div className="card-action">
-          <a href={article.link} target="_blank">
+          <a href={article.link} target="_blank" rel="noopener noreferrer">
             Ouvrir
           </a>
         </div>

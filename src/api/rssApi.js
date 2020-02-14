@@ -1,5 +1,11 @@
-const rss_flux_url = "http://localhost:8080/api/rss_reader/flux"
-const rss_article_url_base = "http://localhost:8080/api/rss_reader/articles"
+//const rss_flux_url = "http://localhost:8080/api/rss_reader/flux"
+const rss_flux_url =
+  "https://react-rss-reader-server.now.sh/api/rss_reader/flux"
+
+//
+//const rss_article_url_base = "http://localhost:8080/api/rss_reader/articles"
+const rss_article_url_base =
+  "https://react-rss-reader-server.now.sh/api/rss_reader/articles"
 
 //
 export async function getApiFlux() {
